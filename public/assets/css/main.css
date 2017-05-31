@@ -562,7 +562,7 @@ p, ul, ol, dl, table {
 /* Box */
 
 .box {
-  background: #ffffff;
+  background-color: rgba(255,255,255,.6);
   color: #39454b;
   padding: 2em;
 }
@@ -1831,6 +1831,12 @@ body.is-touch .main {
   }
   .main.style2 {
     padding: 6em 15px 6em 15px;
+    /*font-size: 2em;*/
+  }
+
+  .main.style2 p{
+    font-size: 2.2em;
+    padding-left: 5%;
   }
   .main.style2:before, .main.style2:after {
     display: none !important;
@@ -1955,7 +1961,7 @@ body.is-touch .main {
 /* Intro */
 
 #intro {
-  background: url("images/overlay.png"), url("/images/patrick-hendry-205149.jpg");
+  background: url("images/overlay.png"), url("/images/tim-foster-264461.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
@@ -1969,7 +1975,7 @@ body.is-touch .main {
 /* One */
 
 #one {
-  background: url("images/overlay.png"), url("/images/christopher-burns-200314.jpg");
+  background: url("images/overlay.png"), url("/images/ingmar-kusel-264280.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -1987,6 +1993,13 @@ body.is-touch .main {
 
 .skills{
   display: flex;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 1.7vw;
+}
+
+.skills i {
+  padding-right: 10%;
 }
 
 
