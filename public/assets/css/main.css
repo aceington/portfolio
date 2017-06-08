@@ -562,7 +562,7 @@ p, ul, ol, dl, table {
 /* Box */
 
 .box {
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255,255,255,.8);
   color: #39454b;
   padding: 2em;
 }
@@ -1985,7 +1985,7 @@ body.is-touch .main {
 /* Two */
 
 #two {
-  background: url("images/overlay.png"), url("/images/nathan-anderson-164937.jpg");
+  background: url("images/overlay.png"), url("/images/ryan-riggins-213451.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -1995,7 +1995,7 @@ body.is-touch .main {
   display: flex;
   margin-left: 5%;
   text-align: left;
-  font-size: 1.7vw;
+  font-size: 22pt;
 }
 
 .skills i {
